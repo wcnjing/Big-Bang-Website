@@ -1,0 +1,474 @@
+
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Orbitron';
+}
+
+/* -------------------------------------Navigation Bar line---------------------------*/
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    position: fixed;
+    z-index: 10;
+    height: 10%;
+    font-family: "Orbitron";
+    transition-duration: 0.300s;
+    opacity: 75%;
+
+  }
+  #navbar:hover {
+    color:cadetblue;
+    height: 12.3%;
+    opacity: 100%;
+  }
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    padding-left: 10px;
+
+  }
+  .logo:hover {
+    color:cadetblue;
+  }
+  .nav-bar li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: "Orbitron";
+  }
+  a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b7b9bb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+
+/* -------------------------------------HOME PAGE --------------------------------------------- */
+    
+
+
+.home {
+    line-height: 0.7cm;
+    padding-top: 8%;
+}
+.still_life {
+
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 25px;
+  font-size: 50px;
+  background-image: url('images/sl_3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-shadow: 2px 2px 5px black;
+  font-family: Sono;
+  
+}
+.still_life-1 {
+
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 25px;
+  font-size: 50px;
+  background-color:black;
+  text-shadow: 2px 2px 5px black;
+  font-family: Sono;
+}
+.sl_promo {
+  background-color: black;
+}
+  
+
+.sl-image {
+  max-width: 100%;
+  height: auto;
+
+  width: 100%;
+}
+
+@media  (max-width:1000px) and (min-width:400px){
+  .still_life {
+
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    font-size: 50px;
+    background-image: url('images/sl_7.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 2px 5px black;
+    font-family: Sono;
+    
+  }
+  .sl-image {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+    
+}
+@media (max-width:400px) {
+  .still_life {
+
+    color: white;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 50px;
+    background-image: url('images/sl_3.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 2px 5px black;
+    font-family: Sono;
+    width: 100%;
+    
+  }
+
+      
+}
+.sl-button {
+  background: none;
+  opacity: 95%;
+  font-size: 20px;
+  font-family: 'Sono';
+  cursor: pointer;
+}
+
+
+.discography {
+    line-height: 0.7cm;
+    padding-top: 8%;
+    color: black;
+    font-family: 'Orbitron';
+    font-size:25px;
+    text-align: center;
+    
+}
+.shop {
+  line-height: 0.7cm;
+  padding-top: 8%;
+}
+.profile {
+    line-height: 0.7cm;
+  
+
+}
+#heading {
+    text-align: center;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* PROFILES CONTENT */
+.outer {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 5%;
+   
+}
+.innner {
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+#bg {
+  background-image: url('images/background_5.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+/* ------------------------------------PROFILE PAGE-----------------------------------------------*/
+
+#profile-1, #profile-2, #profile-3, #profile-4{
+    width: 100%;
+    line-height: 0.5cm;
+    text-align: center;
+}
+.indent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Sono', sans-serif;
+  border: 5px solid black;
+  border-style: double;
+  font-size: 20px;
+  padding-left: 25%;
+  text-align: left;
+}
+.indent2 {
+  padding:5%;
+  font-family: 'Sono', sans-serif;
+  border: 5px solid black;
+  border-style: double;
+  font-size: 19px;
+  text-align: left;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .hamburger {
+        display: block;
+        cursor: pointer;
+      }
+      .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+      }
+      .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: black;
+        transition: 0.5s;
+        overflow: hidden;
+      }
+      .nav-bar.active {
+        height: 200px;
+        opacity: 95%;
+      }
+      .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+       
+        color:white;
+      }
+      .nav-bar.active ul {
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+    
+      .outer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+      }
+ 
+      
+    }
+    
+     
+  @media(max-width:375px) {
+    .indent {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Sono', sans-serif;
+      border: 5px solid black;
+      border-style: double;
+      font-size: 50%;
+      padding-left: 25%;
+      text-align: left;
+  }
+  .indent2 {
+      padding:5%;
+      font-family: 'Sono', sans-serif;
+      border: 5px solid black;
+      border-style: double;
+      font-size: 50%;
+      text-align: left;
+  }
+
+}
+ 
+
+    
+      
+    
+@media(max-width:1350px) and (min-width:700px) {
+    .outer {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+}
+@media(max-width:700px) {
+    .outer {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+  .container{
+        width: 100%;
+    }
+
+a:hover{
+    color: #2EFFD8;
+}
+
+hr {
+    border: solid black 1.5px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }  
+
+
+
+
+@media(max-width:375px) {
+
+    .responsive {
+        height: auto;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+
+    }
+
+}
+/* -------------------DISCOGRAPHY ---------------*/
+#bg-1 {
+  background-image: url('images/background_7.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:black;
+  font-family: 'Orbitron';
+  font-size:25px;
+  
+ 
+}
+.bg-3 {
+  background-image: url('images/background_7.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-shadow: 2px 2px 5px white;
+  color:black;
+
+}
+
+/* -------------------FOOTER---------------------*/
+input[type=text] {
+  border: none;
+  border-bottom: 0.5px solid white;
+  background-color: black;
+  color:white;
+  font-family: 'Sono';
+}
+#myButton1 {
+  border: none;
+  background-color: black;
+  color:white;
+  font-family: 'Sono';
+  cursor: pointer;
+}
+select {
+
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color:white;
+  font-family: 'Sono';
+}
+
+.social-footer {
+  
+  left: 0;
+  bottom: 0;
+  font-family:'Sono';
+  width: 100%;
+  background-image: url('images/background_5.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+  transition-duration: 0.300s;
+  overflow:hidden;
+}
+
+#footer-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#footer-twitter { 
+  color: #1DA1F2
+}
+#footer-youtube {
+  color: #FF0000
+}
+#footer-fb {
+  color: #3b5998;
+}
+#footer-spotify {
+  color:#1DB954
+}
