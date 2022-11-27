@@ -33,6 +33,9 @@ Technologies Used:
    1. HTML
    2. CSS
    3. JavaScript
+   4. Adobe XD
+   5. Adobe Photoshop 2023
+   6. Adobe Illustrator
 
 Credits
 

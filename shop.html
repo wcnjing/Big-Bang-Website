@@ -22,7 +22,7 @@
           <ul>
             <li><a href="disc.html">DISCOGRAPHY</a></li>
             <li><a href="profile-2.html">PROFILE</a></li>
-            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="shop.html">STILL LIFE</a></li>
 
           </ul>
         </nav>
@@ -33,7 +33,102 @@
         </div>
       </header>
       <div class="shop">
-        <h1 id="heading">SHOP</h1>
-        <h2 id="heading"> 상점</h2>
+        
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+   
+    <img src="images/221cae7493b4f7649d0984461cc9b9f2.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="images/CD_1.PNG" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/sl_13.png" style="width:100%">
+  </div>
+  <h1 id="heading">SHOP</h1>
+<h2 id="heading">가게</h2>
+<div class = "sl-merch">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <img src="images/sl_15.PNG" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+ <div><a href = "shop-2.html"><img src = "images/sl_15.png"  id="merch"></a></div>
+ <div><img src = "images/sl_16.PNG"  id="merch"></div>
+ <div><img src = "images/sl_19.png"  id="merch"><figcaption</figcaption></div>
+ <div><img src = "images/sl_18.png"  id="merch"></div>
+ <br><br><br>
+</div>
+ <br><br><br><br>
+ 
       </div>
+      <script>let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }</script>
       
