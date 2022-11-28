@@ -22,7 +22,9 @@ Exisitng Features:
    2. Updates footer: allow users to recieve big bang updates through email by filling out a form
    3. Discography: allow users to see an overview of all the albums the band has released so far
    4. Profile: allow users to read more about each member as well as the band, and see all their social medias
-   5. Shop: allow users to buy merch or music 
+   5. Shop: allow users to buy merch or music from their latest single "still life"
+   6. Navigation items turn into a menu button when screen size is less than 600
+   7. Social media footer: allow users to easily find the band's social media
 
 Features I would LIKE to implement(but might not be able to):
    1. Gallery: allow users to flip through exclusive photos of the band
