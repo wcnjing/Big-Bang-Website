@@ -100,9 +100,23 @@ first image:
 https://wallpapers.com/wallpapers/g-dragon-in-loser-music-video-t9j33wj2k6fej7q2.html
 NEXT 4 PHOTOS from:
 http://www.bigbangmusic.info/photos-bigbang-made-series-e-mnet-special
+Still life page;
+slide show images:
+1. https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.ygselect.com%2Fcategory%2Fstill-life%2F826%2F&psig=AOvVaw0QJbiPBbRTHndmpA4fKb1V&ust=1669950965502000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCNiZq6O61_sCFQAAAAAdAAAAABAJ
+2. https://www.google.com/url?sa=i&url=https%3A%2F%2Fthanhnien.vn%2Fnhung-y-nghia-sau-xa-ma-bigbang-muon-gui-gam-qua-still-life-post1445594.html&3.psig=AOvVaw0QJbiPBbRTHndmpA4fKb1V&ust=1669950965502000&source=images&cd=vfe&ved=0CBcQtaYDahcKEwjYmaujutf7AhUAAAAAHQAAAAAQEQ
+3. https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dcd%2Bcover%2Btemplate&psig=AOvVaw0FBwkXqr9bv7O-4PvfxLn7&ust=1669951157251000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCNCO3v661_sCFQAAAAAdAAAAABAE + https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStill_Life_%2528song%2529&psig=AOvVaw2-zKzmMW8PQmC3geILLoh3&ust=1669951143142000&source=images&cd=vfe&ved=0CBEQjhxqGAoTCKibgfi61_sCFQAAAAAdAAAAABDvAQ + https://www.google.com/imgres?imgurl=https%3A%2F%2Fk-odyssey.com%2Fnews%2Fdata%2F20220405%2Fp1065591402982652_193_thum.jpg&imgrefurl=https%3A%2F%2Fm.k-odyssey.com%2Fnews%2Fnewsview.php%3Fncode%3D1065591402982652&tbnid=KEbVAQrwPvfIQM&vet=12ahUKEwiKlKKXu9f7AhX8jtgFHbqHDDEQMygHegUIARDQAQ..i&docid=WI2mEgLY0KUt4M&w=800&h=450&q=bigbang%20still%20life%20flowerw&ved=2ahUKEwiKlKKXu9f7AhX8jtgFHbqHDDEQMygHegUIARDQAQ (edited in photoshop)
+https://wogifts.com/product/big-bang-still-life-sweatshirt-for-fan/
+first item image(sweater):
+https://wogifts.com/product/big-bang-still-life-sweatshirt-for-fan/
+second item image(keychain):
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.ygselect.com%2Fcategory%2Fstill-life%2F826%2F&psig=AOvVaw0QJbiPBbRTHndmpA4fKb1V&ust=1669950965502000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCNiZq6O61_sCFQAAAAAdAAAAABAJ
+third image:
+
+
 
 ACKNOWLEDGMENTS:
 1. inspo from: https://redvelvet-jp.net/en/ for the home page UI
 2. inspo from: https://ibighit.com/bts/eng/discography/ for discography page
 3. inspo from: https://ygex.jp/en/bigbang/ for navigation bar
 4. inspo from: https://www.taylorswift.com/ for updates footer
+5. referenced from: https://www.w3schools.com/howto/howto_js_slideshow.asp for slide show in still life page

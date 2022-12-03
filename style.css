@@ -227,7 +227,7 @@ body{
     text-align: center;
     color: black;
     font-family: 'Orbitron', sans-serif;
-    font-size: 50;
+    font-size: 50px;
 }
 
 .responsive {
@@ -268,13 +268,14 @@ body{
     line-height: 0.5cm;
     text-align: center;
 }
+
 .indent {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Sono', sans-serif;
   border: 5px solid black;
   border-style: double;
-  font-size: 20px;
+  font-size: 23px;
   padding-left: 25%;
   text-align: left;
 }
@@ -283,7 +284,7 @@ body{
   font-family: 'Sono', sans-serif;
   border: 5px solid black;
   border-style: double;
-  font-size: 19px;
+  font-size: 22px;
   text-align: left;
 }
 
@@ -343,6 +344,10 @@ body{
     ul {
         list-style: none;
       }
+
+      #navbar{
+        display: block;
+      }
  
       
     }
@@ -355,7 +360,7 @@ body{
       font-family: 'Sono', sans-serif;
       border: 5px solid black;
       border-style: double;
-      font-size: 50%;
+      font-size: 70%;
       padding-left: 25%;
       text-align: left;
   }
@@ -364,7 +369,7 @@ body{
       font-family: 'Sono', sans-serif;
       border: 5px solid black;
       border-style: double;
-      font-size: 50%;
+      font-size: 70%;
       text-align: left;
   }
 
@@ -532,6 +537,7 @@ select {
   text-align: center;
   transition-duration: 0.300s;
   overflow:hidden;
+  font-size:15px;
 }
 
 
