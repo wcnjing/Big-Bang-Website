@@ -2,17 +2,20 @@
  BIGBANG WEBSITE
 
  Overview of my project:
-    My website is for a south korean k-pop band called "Big bang". 
+    My website is for a south korean k-pop band called "Big bang". It is for Big Bang fans and people who are curious about Big Bang. This website
+    helps to publicise the band and their new music.
 
     User stories:
     1. As a fan of Big Bang, I wish to support my favourite band by purchasing their merch and music.
     2. As a newer fan of Big Bang, I wish to find out more about this band, so that I can decide whether I want to continue to support them.
     3. As a person who has heard of Big Bang, I wish to find out more about this band as I am curious.
     4. As a person who enjoys Big Bang's music, I wish to see more music made by the band, so that i can find more songs I may enjoy.
+    5. As a fan of Big Bang, I want to recieve updates about the band so that I can support them
 
     Goal of Website Owner:
     1. The website allows them to make more music/merch sales, so they earn more money.
     2. The website helps to publicise them more, allowing them to gain more fans who may support them in the future.
+
 
 
 Features of the website:
@@ -38,6 +41,43 @@ Technologies Used:
    4. Adobe XD
    5. Adobe Photoshop 2023
    6. Adobe Illustrator
+
+
+
+
+Testing:
+ 
+Updates footer:
+1. Scroll to the bottom of the page
+2. Try to submit empty form to ensure an error message appears
+3. Try to submit filled up form to verify that a 
+success message appears
+-> Initally, my 'submit' button changed text to show sucess in application. However, I found that even when the error message appeared, the button text still changed. So, I changed it to an alert instead.
+-> Even when entering an invalid email, the validation goes through if there is something in the field.
+
+Responsiveness on the images:
+1. Press F12, Try to resize format to mobile sizes to see if it is responsive. The grid images should rearrange.
+2. Try to make screen size on laptop smaller to see if it is responsive. The grid images should rearrange.
+3. Try to run the site on different browsers to see if it is responsive. 
+-> Initially, the grid images stayed the same. At first it was too small, and then after adjustment, it was out of the screen. So, my solution was to change the arrangement.
+
+Still life shop:
+1. Click on "Still Life" in the top right corner.
+2. Hover over item, it should enlarge.
+3. Click on item, it will link to item shop.
+
+Home page:
+1. Click on any album pictures. It should bring you to the discography page.
+2. Scroll down and click on 'Stream Now' button. It should bring you to another link, for you to stream it on various platforms.
+3. Scroll down and click on 'Buy now' button. It should bring you to shop page.
+4. Scroll further down, click on any members' pictures. It will take you to their profile.
+
+Social media buttons:
+1. Click on any social media icons, ensure it takes you to the correct social media.
+
+Text responsiveness:
+1. When switching to mobile devices, the texts should still be readable
+-> Initially, the text was too small
 
 Credits
 
@@ -73,6 +113,10 @@ Discography
 
 Content for discography obtained from:
 https://kprofiles.com/bigbang-discography/
+ 
+Home page:
+Link for 'Stream Now' button taken from:
+https://ygex.jp/en/bigbang/
 
 MEDIA 
 

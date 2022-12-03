@@ -72,9 +72,9 @@
  <footer class="social-footer">
   <h1>Sign Up to recieve updates!</h1>
   <h2>업데이트를 받으려면 가입하십시오!</h2>
-  <form>
-    <label for="email">Email Address:</label>
-    <input type="text" id="email" name="email"><br>
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Email: <input type="text" name="femail">
+    <br><br>
     <label for="country">Country:</label>
 
     <select name="country" id="country">
@@ -88,9 +88,9 @@
       <option value="europe">Europe</option>
       <option value="others">others</option>
     </select>
-    <br>
-        <input onclick="change()" type="button" value="Submit" id="myButton1">
-  </form>
+    <br><br>
+<input value="Submit" type="submit" id="myButton1">
+</form>
   <a href="https://www.instagram.com/bigbang_official/?hl=en" class="fa fa-instagram fa-3x"></a>
   <a href="https://twitter.com/_bbmusic" class="fa fa-twitter fa-3x"></a>
   <a href="https://www.youtube.com/channel/UCzw-C7fNfs018R1FzIKnlaA" class="fa fa-youtube-play fa-3x"></a>
@@ -107,11 +107,16 @@ const navbar = document.querySelector(".nav-bar");
 hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
 
 window.onscroll = function() {scrollFunction()};
-function change() 
-{
-var elem = document.getElementById("myButton1");
-
-elem.value = "Thank you! Please look forward to future updates. \n감사합니다! 사람들은 향후 업데이트를 기대합니다.";
+function validateForm() {
+  let x = document.forms["myForm"]["femail"].value;
+  if (x == "") {
+    alert("Email must be filled out.");
+    return false;
+  }
+  else {
+    alert("Thank you! Please look forward to future updates. \n감사합니다! 사람들은 향후 업데이트를 기대합니다.");
+    return false;
+  }
 }
   </script>
  
