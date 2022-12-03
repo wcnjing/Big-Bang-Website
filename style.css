@@ -461,7 +461,7 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
-#merch {
+.merch {
   width:160%;
   box-shadow: 5px 10px 15px black;
 
