@@ -223,7 +223,7 @@ body{
   
 
 }
-#heading {
+.heading {
     text-align: center;
     color: black;
     font-family: 'Orbitron', sans-serif;
