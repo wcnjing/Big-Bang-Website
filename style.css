@@ -480,7 +480,7 @@ hr {
     height:500px;
   }
   
-  #merch:hover {
+  .merch:hover {
     transform: scale(1.15); 
   }
 
