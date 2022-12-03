@@ -241,12 +241,11 @@ body{
 
 /* PROFILES CONTENT */
 .outer {
-
     display: grid;
+    grid-gap: 0px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     padding-top: 5%;
-  
    
 }
 .innner {
