@@ -63,8 +63,13 @@ body{
 
 
 .home {
-    line-height: 0.7cm;
-    padding-top: 8%;
+  line-height: 0.7cm;
+  padding-top: 8%;
+  color: black;
+  font-family: 'Orbitron';
+  font-size:25px;
+  text-align: center;
+  
 }
 .still_life {
 
